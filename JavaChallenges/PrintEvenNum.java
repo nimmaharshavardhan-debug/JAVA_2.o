@@ -1,6 +1,8 @@
 package JavaChallenges;
 import java.util.Scanner;
 public class PrintEvenNum {
+
+    // Print even numbers from 1 to 20
     public static void main(String [] args){
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter a num : ");
