@@ -9,6 +9,7 @@ public class Methods_Example_Six {
         for (int i=0;i<=10;i++){
            System.out.println(num + " X " + i + " = " + (num * i));
         }
+        obj.close();
     }
     public static void main(String [] args){
 

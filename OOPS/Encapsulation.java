@@ -23,7 +23,7 @@ class StudentDetails{
 public class Encapsulation {
     public static void main(String [] args){
         StudentDetails obj = new StudentDetails();
-        String set = obj.setName("Harsha Vardhan N");
+        obj.setName();
         String Name = obj.getName();
         System.out.println(Name);
 

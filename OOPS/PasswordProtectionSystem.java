@@ -78,6 +78,7 @@ public class PasswordProtectionSystem {
         Scanner sc = new Scanner(System.in);
         Login obj = new Login();
         System.out.println("Enter your user name : ");
+        
         String user_name = sc.nextLine();
         obj.setUserName(user_name);
         System.out.println("Enter ypur password : ");
@@ -85,6 +86,6 @@ public class PasswordProtectionSystem {
         obj.setPassword(user_password);
        
         System.out.println(obj.getUserName()+"\n"+obj.getPassword());
-         obj.loginCredentials( obj.getUserName(),obj.getPassword());
+        obj.loginCredentials( obj.getUserName(),obj.getPassword());
     }
 }
