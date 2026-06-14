@@ -30,7 +30,7 @@ abstract class Implementations implements Vehicle {
     public abstract void wheels();
 }
 
-// Child class (NOT public - so it can be in same file)
+
 class BMW extends Implementations {
     
     // Must implement abstract methods with public access

@@ -75,7 +75,6 @@ class OPPO extends Mobile implements MobilePhone {
     }
 
     public void GPS(){
-        super.GPS();
         System.out.println("OPPO Tracking system is upgraded...");
     }
 }

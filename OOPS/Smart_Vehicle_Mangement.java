@@ -39,18 +39,13 @@ class ElectricCar extends Vehicle
     }
 
     public void display() {
-
         super.displayVehicleInfo();
-
-        System.out.println(
-            "Battery Capacity : "
-            + batteryCapacity);
+        System.out.println("Battery Capacity : " + batteryCapacity);
     }
 
     @Override
     public void navigate() {
-        System.out.println(
-            "Started Navigating...");
+        System.out.println("Started Navigating...");
     }
 }
 
@@ -59,12 +54,7 @@ public class Smart_Vehicle_Mangement {
 
     public static void main(String[] args) {
 
-        ElectricCar obj1 =
-            new ElectricCar(
-                "Tesla",
-                "Model Y",
-                "75 kWh"
-            );
+        ElectricCar obj1 = new ElectricCar("Tesla","Model Y","75 kWh");
 
         obj1.display();
         obj1.navigate();
