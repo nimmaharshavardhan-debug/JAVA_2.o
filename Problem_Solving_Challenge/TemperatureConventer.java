@@ -9,7 +9,7 @@ public class TemperatureConventer {
     }
 
         double CelFah = obj.celsiusToFahrenheit();
-        System.out.println(CelFah);vs
+        System.out.println(CelFah);
 
         
 
